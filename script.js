@@ -91,8 +91,6 @@ const data = {
         ]
     }
 };
-
-// Calculate BMI and display recommendations
 bmiForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const weightInput = document.getElementById('weight');
