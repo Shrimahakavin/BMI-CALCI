@@ -5,21 +5,17 @@ const data = {
     obese: {
         title: "For Obese Individuals",
         recipes: [
-            "BREAK FAST:",
-            "2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar",
-            "Chapati with Mixed Dal and Salad any fruit juice without sugar",
-            "Vegetable Stir-Fry with Chapati",
-            "LUNCH:",
-            "A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish",
-            "A millet raci with greens",
-            "Red rice with vegetables and sprouts",
-            "EVENING SNACKS:",
-            "AVUL,GROUND NUTS,TENDER COCOUNT",
-            "DINNER:",
-            "2 DOSA WITH COUCUNUT CHUTNEY",
-            "2 CHAPPATHI WITH EGG OR CHICKEN OR PANNER KURUMA OR GRAVY",
-            "VEGETABLE SOUP",
-            "A TURMERIC MILK BEORE A NIGHT",
+            "<strong>BREAKFAST:</strong> <span style='font-size: small;'>2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar</span>",
+            "<span style='font-size: small;'>Chapati with Mixed Dal and Salad any fruit juice without sugar</span>",
+            "<span style='font-size: small;'>Vegetable Stir-Fry with Chapati</span>",
+            "<strong>LUNCH:</strong> <span style='font-size: small;'>A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish</span>",
+            "<span style='font-size: small;'>A millet raci with greens</span>",
+            "<span style='font-size: small;'>Red rice with vegetables and sprouts</span>",
+            "<strong>EVENING SNACKS:</strong> <span style='font-size: small;'>AVUL, GROUND NUTS, TENDER COCOUNT</span>",
+            "<strong>DINNER:</strong> <span style='font-size: small;'>2 DOSA WITH COCONUT CHUTNEY</span>",
+            "<span style='font-size: small;'>2 CHAPPATHI WITH EGG OR CHICKEN OR PANNER KURUMA OR GRAVY</span>",
+            "<span style='font-size: small;'>VEGETABLE SOUP</span>",
+            "<span style='font-size: small;'>A TURMERIC MILK BEFORE A NIGHT</span>"
         ],
         exercises: [
             "Marching in Place",
@@ -38,21 +34,17 @@ const data = {
     normal: {
         title: "For Normal Weight Individuals",
         recipes: [
-            "BREAK FAST:",
-            "2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar",
-            "Chapati with Mixed Dal and Salad any fruit juice without sugar",
-            "Vegetable Stir-Fry with Chapati",
-            "LUNCH:",
-            "A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish",
-            "A millet raci with greens",
-            "Red rice with vegetables and sprouts",
-            "EVENING SNACKS:",
-            "AVUL,GROUND NUTS,TENDER COCOUNT",
-            "DINNER:",
-            "2 DOSA WITH COUCUNUT CHUTNEY",
-            "2 CHAPPATHI WITH EGG OR CHICKEN OR PANNER KURUMA OR GRAVY",
-            "VEGETABLE SOUP",
-            "A TURMERIC MILK BEORE A NIGHT",
+            "<strong>BREAKFAST:</strong> <span style='font-size: small;'>2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar</span>",
+            "<span style='font-size: small;'>Chapati with Mixed Dal and Salad any fruit juice without sugar</span>",
+            "<span style='font-size: small;'>Vegetable Stir-Fry with Chapati</span>",
+            "<strong>LUNCH:</strong> <span style='font-size: small;'>A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish</span>",
+            "<span style='font-size: small;'>A millet raci with greens</span>",
+            "<span style='font-size: small;'>Red rice with vegetables and sprouts</span>",
+            "<strong>EVENING SNACKS:</strong> <span style='font-size: small;'>AVUL, GROUND NUTS, TENDER COCOUNT</span>",
+            "<strong>DINNER:</strong> <span style='font-size: small;'>2 DOSA WITH COCONUT CHUTNEY</span>",
+            "<span style='font-size: small;'>2 CHAPPATHI WITH EGG OR CHICKEN OR PANNER KURUMA OR GRAVY</span>",
+            "<span style='font-size: small;'>VEGETABLE SOUP</span>",
+            "<span style='font-size: small;'>A TURMERIC MILK BEFORE A NIGHT</span>"
         ],
         exercises: [
             "Jumping Jacks",
@@ -67,22 +59,18 @@ const data = {
     underweight: {
         title: "For Underweight Individuals",
         recipes: [
-            "PREBREAKFAST:",
-            "RAGI KANGI",
-            "A HAND FULL OF SOAKED ALMONDS",
-            "BREAK FAST:",
-            "3 DOSA WITH COUCUNUT CHUTNEY WITH NATU KHOZHI EGG OMELETE AND A GLASS OF MILK",
-            "3 CHAPPATHI WITH PANNER OR CHICKEN OR EGG GRAVY WITH GREEN GRAM ",
-            "RAGI KALI WITH OMELETE AND A FRUIT JUICE",
-            "POORI WITH POTATO AND FINISH IT WITH A JUICE",
-            "LUNCH",
-            "A RICE WITH GHREE WITH SAMBAR AND GREENS",
-            "A RICE WITH CHICKEN OR MUTTON KOLAMBU END YPUR LUNCH WITH CURD RICE",
-            "A RICE WIYH GHEE ADD PULIKULAMBU ADD YOUR FAVORITE VEGGIES AS A SIDEISH END YOUR LUNCH WITH RASAM",
-            "DINNER",
-            "MILLET PONGAL WITH VEGETABLES END YPUR DINNER WITH BUTTEMILK(MOR)",
-            "A RAGI DOSA WITH COUNUT CHUTNEY OR GRAVY AS YOUR WISH",
-            "UPMA OR ARISIPARPU SADHAM WITH EGG AND A GLASS OF MILK",
+            "<strong>PREBREAKFAST:</strong> <span style='font-size: small;'>RAGI KANGI</span>",
+            "<span style='font-size: small;'>A HAND FULL OF SOAKED ALMONDS</span>",
+            "<strong>BREAKFAST:</strong> <span style='font-size: small;'>3 DOSA WITH COCONUT CHUTNEY WITH NATU KHOZHI EGG OMELETTE AND A GLASS OF MILK</span>",
+            "<span style='font-size: small;'>3 CHAPPATHI WITH PANNER OR CHICKEN OR EGG GRAVY WITH GREEN GRAM</span>",
+            "<span style='font-size: small;'>RAGI KALI WITH OMELETTE AND A FRUIT JUICE</span>",
+            "<span style='font-size: small;'>POORI WITH POTATO AND FINISH IT WITH A JUICE</span>",
+            "<strong>LUNCH:</strong> <span style='font-size: small;'>A RICE WITH GHEE WITH SAMBAR AND GREENS</span>",
+            "<span style='font-size: small;'>A RICE WITH CHICKEN OR MUTTON KOLAMBU AND YOUR LUNCH WITH CURD RICE</span>",
+            "<span style='font-size: small;'>A RICE WITH GHEE ADD PULIKULAMBU ADD YOUR FAVORITE VEGGIES AS A SIDE DISH AND END YOUR LUNCH WITH RASAM</span>",
+            "<strong>DINNER:</strong> <span style='font-size: small;'>MILLET PONGAL WITH VEGETABLES AND YOUR DINNER WITH BUTTERMILK (MOR)</span>",
+            "<span style='font-size: small;'>A RAGI DOSA WITH COCONUT CHUTNEY OR GRAVY AS YOUR WISH</span>",
+            "<span style='font-size: small;'>UPMA OR ARISIPARPU SADHAM WITH EGG AND A GLASS OF MILK</span>"
         ],
         exercises: [
             "Yoga for Strength",
@@ -91,6 +79,7 @@ const data = {
         ]
     }
 };
+
 bmiForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const weightInput = document.getElementById('weight');
@@ -127,3 +116,4 @@ bmiForm.addEventListener('submit', (event) => {
         </div>
     `;
 });
+
