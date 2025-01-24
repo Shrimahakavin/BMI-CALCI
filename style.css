@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4c6ef5, #667eea);
+    color: #fff;
+}
+
+header {
+    background-color: #243b55;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* BMI Form */
+.bmi-form h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #243b55;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b2942;
+}
+
+/* BMI Result Section */
+#bmiResult {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Recommendations */
+.recommendation-category {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.recommendation-category h3 {
+    color: #ffeb3b;
+}
+
+.recommendation-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-category li {
+    margin: 10px 0;
+}
