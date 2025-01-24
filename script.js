@@ -51,17 +51,28 @@ bmiForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
     // Get user input
-    const weight = parseFloat(document.getElementById('weight').value);
-    const height = parseFloat(document.getElementById('height').value);
+    const weightInput = document.getElementById('weight');
+    const heightInput = document.getElementById('height');
+    const weight = parseFloat(weightInput.value);
+    const heightInCm = parseFloat(heightInput.value);
+    const heightInMeters = heightInCm / 100; // Convert cm to meters
+
+    // Debugging: Log weight and height values
+    console.log("Weight (kg):", weight);
+    console.log("Height (cm):", heightInCm);
+    console.log("Height (m):", heightInMeters);
 
     // Validate input
-    if (weight <= 0 || height <= 0) {
+    if (!weight || weight <= 0 || !heightInCm || heightInCm <= 0) {
         alert("Please enter valid weight and height values.");
         return;
     }
 
     // Calculate BMI
-    const bmi = (weight / (height * height)).toFixed(1);
+    const bmi = (weight / (heightInMeters * heightInMeters)).toFixed(1);
+
+    // Debugging: Log BMI value
+    console.log("BMI:", bmi);
 
     // Determine category
     let category = "";
