@@ -5,10 +5,10 @@ const data = {
     obese: {
         title: "For Obese Individuals",
         recipes: [
-            "BREAK FAST:"
+            "BREAK FAST:",
             "2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar",
             "Chapati with Mixed Dal and Salad any fruit juice without sugar",
-            "Vegetable Stir-Fry with Chapati"
+            "Vegetable Stir-Fry with Chapati",
             "LUNCH:",
             "A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish",
             "A millet raci with greens",
@@ -24,10 +24,10 @@ const data = {
         exercises: [
             "Marching in Place",
             "Chair Squats",
-            "Wall Push-Ups"
+            "Wall Push-Ups",
             "Jumping Jacks",
             "Push-Ups",
-            "Plank Holds"
+            "Plank Holds",
             "SITUPS 4X15 SETS",
             "WALLSIT 4X15 SETS",
             "LUNGUES 10 REP",
@@ -38,10 +38,10 @@ const data = {
     normal: {
         title: "For Normal Weight Individuals",
         recipes: [
-           "BREAK FAST:"
+            "BREAK FAST:",
             "2 Idlis, 1 Boiled Egg, 1 Glass of Milk without sugar",
             "Chapati with Mixed Dal and Salad any fruit juice without sugar",
-            "Vegetable Stir-Fry with Chapati"
+            "Vegetable Stir-Fry with Chapati",
             "LUNCH:",
             "A bowl of rice with egg or panner or chichen gravy with same bowl of vegetables as you wish",
             "A millet raci with greens",
@@ -57,7 +57,7 @@ const data = {
         exercises: [
             "Jumping Jacks",
             "Push-Ups",
-            "Plank Holds"
+            "Plank Holds",
             "SQUATS 4X15 SETS",
             "SITUPS 4X15 SETS",
             "WALLSIT 4X15 SETS",
@@ -74,7 +74,7 @@ const data = {
             "3 DOSA WITH COUCUNUT CHUTNEY WITH NATU KHOZHI EGG OMELETE AND A GLASS OF MILK",
             "3 CHAPPATHI WITH PANNER OR CHICKEN OR EGG GRAVY WITH GREEN GRAM ",
             "RAGI KALI WITH OMELETE AND A FRUIT JUICE",
-            "POORI WITH POTATO AND FINISH IT WITH A JUICE"
+            "POORI WITH POTATO AND FINISH IT WITH A JUICE",
             "LUNCH",
             "A RICE WITH GHREE WITH SAMBAR AND GREENS",
             "A RICE WITH CHICKEN OR MUTTON KOLAMBU END YPUR LUNCH WITH CURD RICE",
